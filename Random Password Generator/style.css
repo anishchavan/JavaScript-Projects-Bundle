@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: teal;
+    
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+   /* width: 400px; */
+   background-color: rgb(21, 61, 61); 
+   border-radius: 10px;
+   padding: 20px;
+   color: rgb(255, 255, 255);
+}
+
+#pass-box{
+    width: 100%;
+    border: 1px solid blue;
+    display: block;
+    background-color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin: 9px 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+#total-char{
+    width: 38px;
+    height: 22px;
+}
+
+#btn{
+    width: 100%;
+    display: block;
+    margin: 10px 0;
+    padding: 5px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background: rgb(20, 34, 34);
+    color: white;
+}
+
+#upper-case, #lower-case, #numbers, #symbols{
+    width: 16px;
+    height: 16px;
+}
